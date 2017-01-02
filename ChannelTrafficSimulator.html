@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+<head>
+<h1>User Traffic</h1><p id="parameter_error" style="color:red"></p>
+<link rel="stylesheet" type="text/css" href="ChannelTrafficSimulator.css"/>
+
+</head>
+
+<body>
+<div id="background">
+
+<div id="tables">
+
+<div class="table_div">
+<table name ="ptable" id="table1" class="table" border="1"></table>
+</div>
+
+<div class="table_div">
+<table name="stable" id="table2" class="table" border="1"></table>
+</div>
+
+<div class="table_div">
+<table name="ctable" id="table3" class="table" border="1"></table>
+</div>
+
+
+
+
+</div>
+
+<div id="parameters">
+
+
+<form class="parameter"><input type="button" name="Run Once" id="RunOnce" value="Run Once"></form>
+<form class="parameter">Run<span class="blank"></span><input class="inputs" type="text" name="iterations" id="iterations" value="10">iterations</form>
+<form class="parameter"><input type="button" name="Run All" id="runall" value="Run"></form>
+
+
+<div class="parameter_group" style="margin-top: 130px">
+<form class="parameter">Number of Channels:<span class="blank"></span><input class="inputs"type="text" name="Channels" id="channels" value="10"></form>
+<form class="parameter">Number of Channels used by Primary User:<span class="blank"></span><input class="inputs" type="text" name="PU" id="pu" value="5"></form>
+<form class="parameter"><input type="button" name="Run" id="run1" value="Run"></form>
+</div>
+
+<div class="parameter_group" style="margin-top: 130px">
+<form class="parameter">Chance of Error of selecting an open channel percieved to be in use:<span class="blank"></span><input class="inputs" type="text" name="Primary Detection Error" id="w to b" value="0.5"></form>
+<form class="parameter">Chance of Error of selecting a used channel percieved to be open:<span class="blank"></span><input class="inputs" type="text" name="Primary Detection Error" id="b to w" value="0.5"></form>
+<form class="parameter">Number of Secondary Users:<span class="blank"></span><input class="inputs" type="text" name="UN" id="un" value="2"></form>
+<form class="parameter"><input type="button" name="Run" id="run2" value="Run"></form>
+</div>
+
+<div class="parameter_group" style="margin-top: 90px">
+<form class="parameter"><input type="button" name="Run" id="run3" value="Run"></form>
+<form class="parameter"><input type="button" name="Run" id="channeldata" value="Create Table of data"></form>
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+</body>
+<script type="text/javascript" src="ChannelTrafficSimulatorGraphClass.js"></script>
+<script type="text/javascript" src="ChannelTrafficSimulator.js"></script>
+
+
+</html>
+

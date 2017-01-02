@@ -1,0 +1,70 @@
+#background  {
+	height: 1000px;
+	width: 1650px;
+	border-radius: 25px;
+	background-color: #33A5FF;
+}
+
+#tables {
+	display: inline-block;
+	height: 900px;
+	width: 1150px;
+	margin-top: 50px;
+	margin-left: 10px;
+	border: ridge;
+	border-color:black;
+	border-width: 2px;
+}
+
+.table_div {
+	display: inline-block;
+	margin-left: 115px;
+	margin-top: 5px;
+	width: 922px;
+	height: 280px;
+	border: ridge;
+	border-color:black;
+	border-width: 2px;
+}
+
+.table {
+	width: 920px;
+	height: 280px;
+	table-layout: fixed
+}
+
+#parameters {
+	display: inline-block;
+	vertical-align: top;
+	height: 900px;
+	width: 450px;
+	margin-top:50px;
+	border: ridge;
+	border-color:black;
+	border-width: 2px;
+}
+
+.parameter_group {
+	border-top: ridge;
+	border-bottom: ridge;
+	border-color: black;
+	border-width: 2px;
+}
+
+
+.parameter {
+	text-align: center;
+	padding-top: 20px;
+	font-weight: bold;
+	
+}
+
+.blank {
+	display:inline-block; 
+	width: 20px;
+}
+.inputs {
+	width:400px;
+}
+
+
